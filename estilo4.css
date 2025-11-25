@@ -1,0 +1,16 @@
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
