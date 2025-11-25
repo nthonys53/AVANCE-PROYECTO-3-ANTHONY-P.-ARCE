@@ -11,4 +11,11 @@ function sumar(a, b) {
 document.addEventListener('DOMContentLoaded', function() {
     saludar();
     console.log("Suma de 5 + 3 =", sumar(5, 3));
+    function validarEdad(edad) {
+    return edad >= 18 ? "Mayor de edad" : "Menor de edad";
+}
+
+function multiplicar(a, b) {
+    return a * b;
+}
 });
